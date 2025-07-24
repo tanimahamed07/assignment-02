@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="flex justify-between items-center max-w-[1140px] mx-auto mb-[120px]">
+        <nav class="flex justify-between items-center max-w-[1140px] mx-auto mb-[28px] sm:mb-[120px]">
             <img src="./assets/logo.png" alt="">
             <ul class="flex gap-[15px]">
                 <li class="hidden sm:block"><a href="">Home</a></li>
@@ -27,19 +27,19 @@
         <!-- banner -->
         <section class="flex flex-col-reverse sm:flex-row justify-start items-end max-w-[1140px] mx-auto">
             <div class="flex-1/2 text-">
-                <h1 class="text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH</span></h1>
-                <h1 class="text-6xl text-[#E95A08]">FLOWERS</h1>
-                <p class="text-2xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh
+                <h1 class="text-2xl sm:text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH</span></h1>
+                <h1 class="text-2xl sm:text-6xl text-[#E95A08]">FLOWERS</h1>
+                <p class="text-[14px] sm:text-2xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh
                     flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <div class="mb-[28px]"><img src="./assets/hero-flower.png" alt=""></div>
         </section>
         <!-- our plan -->
-        <section class=" max-w-[1140px] mx-auto mt-[120px] mb-[50px]">
+        <section class=" max-w-[1140px] mx-auto mt-[65px] sm:mt-[120px] mb-[50px]">
             <div class="text-center mb-[28px]">
-                <h1 class="font-bold text-5xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
-                <p class="text-2xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh
+                <h1 class="font-bold text-2xl sm:text-5xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
+                <p class="text-[14px] sm:text-2xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh
                     flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh.</p>
             </div>
@@ -98,7 +98,7 @@
         </section>
         <!-- plants lover section  -->
 
-        <section class="flex flex-col sm:flex-row gap-[60px] mt-[40px] sm:mt-[180px] relative max-w-[1140px] mx-auto">
+        <section class="flex flex-col sm:flex-row gap-[20px] sm:gap-[60px] mt-[40px] sm:mt-[180px] relative max-w-[1140px] mx-auto">
             <div class="flex-1 items-center">
                 <img src="./assets/flower-store.png" alt="">
 
@@ -107,8 +107,8 @@
                 <img src="./assets/trusted-badge.png" alt="">
             </div>
             <div class="py-[38px] flex-1 items-center ">
-                <h1 class="text-5xl">Flower & Plants Lover</h1>
-                <ul class="list-disc pl-5 text-2xl text-[#00000050] mt-[20px]">
+                <h1 class="text-2xl font-bold sm:text-5xl">Flower & Plants Lover</h1>
+                <ul class="list-disc pl-5 text-[14px] sm:text-2xl text-[#00000050] mt-[20px]">
                     <li class="my-[20px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
                         From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                     <li class="my-[20px]">Indulge your senses with the beauty and fragrance of our fresh flower shop.
@@ -118,17 +118,17 @@
                 </ul>
             </div>
         </section>
-
-        <section class="max-w-[1140px] mx-auto" mx-auto>
-            <div class="text-center mt-[130px]">
-                <h1 class="mb-[16px] font-bold text-5xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
-                <p class="text-2xl text-[#00000080] mb-[120px]">Indulge your senses with the beauty and fragrance of our
+<!-- latest deals  -->
+        <section class="max-w-[1140px] mx-auto">
+            <div class="text-center mt-[30px] sm:mt-[130px]">
+                <h1 class="mb-[16px] font-bold text-2xl sm:text-5xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
+                <p class="text-[14px] sm:text-2xl text-[#00000080] mb-[50px] sm:mb-[120px]">Indulge your senses with the beauty and fragrance of our
                     fresh
                     flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-4">
-                
+
                 <div class="col-span-1 flex flex-col gap-6">
                     <div class="h-[206px] bg-no-repeat bg-cover bg-center rounded-[14px] flex flex-col items-center justify-center"
                         style="background-image: url('./assets/deal-bloom.png');">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
 
-                
+
                 <div class="mt-6 sm:mt-0 col-span-2 h-[172px] sm:h-full bg-no-repeat bg-cover bg-center rounded-[14px] flex flex-col items-center justify-center"
                     style="background-image: url('./assets/deal-zabo.png');">
                     <h2 class="text-xl sm:text-5xl text-white font-bold">25% Off | Zabo Plant</h2>
@@ -150,19 +150,55 @@
                 </div>
             </div>
         </section>
-        <section class="mt-[120px]">
-            <div class="flex flex-col justify-center bg-no-repeat bg-cover bg-center h-[276px]  sm:h-[533px]" style="background-image: url(./assets/news-letter-bg.png);">
-                <h1 class="mt-[80px] w-[321px] sm:w-[830px] mx-auto text-xl sm:text-5xl text-white mb-[23px] text-center">Join the colorful Bunch</h1>
+        <!-- join section  -->
+        <section class="mt-[40px] sm:mt-[120px]">
+            <div class="flex flex-col justify-center bg-no-repeat bg-cover bg-center h-[276px]  sm:h-[533px]"
+                style="background-image: url(./assets/news-letter-bg.png);">
+                <h1
+                    class="mt-[80px] w-[321px] sm:w-[830px] mx-auto text-xl sm:text-5xl text-white mb-[23px] text-center">
+                    Join the colorful Bunch</h1>
                 <div class="w-[321px] sm:w-[830px] mx-auto flex flex-row justify-center ">
-                <input class=" py-[15px] px-[20px] max-w-[218px] sm:w-[644px] h-[50px] text-[#00000080] bg-white" type="email" name="" id="" placeholder="Write email">
-                <button class="px-[auto] sm:px-[50px]  bg-[#E95A08] text-white h-[50px] w-[100px] sm:w-auto">Subscribe</button>
+                    <input class=" py-[15px] px-[20px] max-w-[218px] sm:w-[644px] h-[50px] text-[#00000080] bg-white"
+                        type="email" name="" id="" placeholder="Write email">
+                    <button
+                        class="px-[auto] sm:px-[50px]  bg-[#E95A08] text-white h-[50px] w-[100px] sm:w-auto">Subscribe</button>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <section>
+        <section class="max-w-[1140px] mx-auto grid-cols-1 grid sm:grid-cols-[auto_auto_auto_auto] gap-x-[auto] my-[50px]">
+            <div class="max-w-[356px]">
+                <img src="./assets/logo.png" alt="">
+                <p class="text-2xl text-[#00000080]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div>
+                <ul class="text-[#00000080]">
+                    <li class="mb-[32px]"><a href="">Home</a></li>
+                    <li class="mb-[32px]"><a href="">About Us</a></li>
+                    <li class="mb-[32px]"><a href="">Blog</a></li>
+                    <li class="mb-[32px]"><a href="">FAQ</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+                <ul class="text-[#00000080]">
+                    <li class="mb-[32px]"><a href="">Features</a></li>
+                    <li class="mb-[32px]"><a href="">Pricing</a></li>
+                    <li class="mb-[32px]"><a href="">Privacy Policy</a></li>
+                    <li class="mb-[32px]"><a href="">Terms of Service</a></li>
+                    <li class="mb-[32px]"><a href="">Help Center</a></li>
+                </ul>
+            <div>
+                <div class="flex gap-[24px]">
+                    <img src="./assets/icon-linkedin.png" alt="">
+                    <img src="./assets/icon-twitter.png" alt="">
+                    <img src="./assets/icon-facebook.png" alt="">
+                    <img src="./assets/icon-youtube.png" alt="">
+                </div>
+            </div>
+            <div>
 
+            </div>
         </section>
     </footer>
 </body>
